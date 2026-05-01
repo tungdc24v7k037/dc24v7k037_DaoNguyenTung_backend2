@@ -8,7 +8,7 @@ router.route("/")
     .post(contacts.create)
     .delete(contacts.deleteAll)
 
-router.route("/ favorie" )
+router.route("/favorite" )
      .get(contacts.findAllFavorite);
 
 
